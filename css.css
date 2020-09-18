@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 200px 600px 200px;
+    grid-template-rows: 200px 500px 150px 150px;
+}
+header{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+body{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.btn{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 150px;
+
+}
